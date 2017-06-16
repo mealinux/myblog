@@ -1,0 +1,73 @@
+@media only screen and (min-width: 808px)
+{
+  body > nav
+  {
+    visibility: hidden;
+  }
+
+}
+@media only screen and (min-width: 0) and (max-width: 808px)
+{
+  body > div.ui.doubling.stackable.pointing.menu
+  {
+    visibility: hidden;
+    position: absolute;
+  }
+  body > div.ui.doubling.stackable.pointing.menu > a.active.item::after
+  {
+    visibility: hidden;
+  }
+  body > div.ui.three.column.doubling.stackable.grid > div:nth-child(1n+1) > div > div.col-md-10 > div
+  {
+    visibility: hidden;
+    position: absolute;
+  }
+  body > nav
+  {
+    z-index: 9999;
+  }
+
+  @media (min-width:320px)
+  {
+    body > div.ui.doubling.stackable.pointing.menu
+    {
+      visibility: hidden;
+      position: absolute;
+    }
+    body > div.ui.doubling.stackable.pointing.menu > a.active.item::after
+    {
+      visibility: hidden;
+    }
+    body > div.ui.three.column.doubling.stackable.grid > div:nth-child(1n+1) > div > div.col-md-10 > div
+    {
+      visibility: hidden;
+      position: absolute;
+    }
+    body > nav
+    {
+      z-index: 9999;
+    }
+
+  }
+  @media (min-width:481px)
+  {
+    body > div.ui.doubling.stackable.pointing.menu
+    {
+      visibility: hidden;
+      position: absolute;
+    }
+    body > div.ui.doubling.stackable.pointing.menu > a.active.item::after
+    {
+      visibility: hidden;
+    }
+    body > div.ui.three.column.doubling.stackable.grid > div:nth-child(1n+1) > div > div.col-md-10 > div
+    {
+      visibility: hidden;
+      position: absolute;
+    }
+    body > nav
+    {
+      z-index: 9999;
+    }
+  }
+}
