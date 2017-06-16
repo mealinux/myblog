@@ -5,4 +5,6 @@ Created with Laravel
 
 2- veritabanına manuel olarak bir kullanıcı girin "type" alanına admin yazın
 
-2- en başta Home, Laravel ve Hakkımda diye üç menü oluşur bunları değiştirebilirsiniz
+3- en başta Home, Laravel ve Hakkımda diye üç menü oluşur bunları değiştirebilirsiniz
+
+4- admin paneline "admin/master-loginasform" olarak ulaşabilirsiniz
