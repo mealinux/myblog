@@ -25,7 +25,7 @@
           <div class="form-group">
             <div class="col-md-12">
               <input type="file" name="logo" accept="image/*">
-              <p class="help-block">Şu boyutta</p>
+              <p class="help-block">Şu boyuttaa</p>
             </div>
           </div>
         </div>
