@@ -14,6 +14,7 @@ return [
     'menu-delete'       => 'حذف',
     'menu-view'         => 'مشاهده',
     'menu-download'     => 'دانلود',
+    'menu-move'         => 'انتقال',
     'menu-resize'       => 'تغییر اندازه',
     'menu-crop'         => 'برش',
 
@@ -21,8 +22,8 @@ return [
     'title-panel'       => 'مدیریت فایل لاراول',
     'title-upload'      => 'آپلود کردن فایل',
     'title-view'        => 'مشاهده فایل',
-    'title-root'        => 'فایل ها',
-    'title-shares'      => 'فایل های اشتراکی',
+    'title-user'        => 'فایل ها',
+    'title-share'       => 'فایل های اشتراکی',
     'title-item'        => 'آیتم',
     'title-size'        => 'اندازه',
     'title-type'        => 'نوع',

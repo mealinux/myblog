@@ -7,20 +7,20 @@
  * requires [intervention/image](https://github.com/Intervention/image) (to make thumbs, crop and resize images).
 
 ## Installation
-1. Install package 
+1. Install package
 
     ```bash
     composer require unisharp/laravel-filemanager:~1.8
     ```
 
-1. Edit `config/app.php` :
+1. (optional) Edit `config/app.php` :
 
-    \* *For Laravel 5.5 and up, skip to step 3. All service providers and facades are automatically discovered.* 
+    \* *For Laravel 5.5 and up, skip to step 3. All service providers and facades are automatically discovered.*
 
     Add service providers
 
     ```php
-    Unisharp\Laravelfilemanager\LaravelFilemanagerServiceProvider::class,
+    UniSharp\LaravelFilemanager\LaravelFilemanagerServiceProvider::class,
     Intervention\Image\ImageServiceProvider::class,
     ```
 
@@ -39,15 +39,23 @@
     php artisan vendor:publish --tag=lfm_config
     php artisan vendor:publish --tag=lfm_public
     ```
-    
+
 1. Run commands to clear cache :
-    
+
     ```bash
     php artisan route:clear
     php artisan config:clear
     ```
-    
+
 1. Ensure that the files & images directories (in `config/lfm.php`) are writable by your web server (run commands like `chown` or `chmod`).
+
+1. Create symbolic link :
+
+    ```bash
+    php artisan storage:link
+    ```
+
+1. Edit `APP_URL` in `.env`.
 
 ## What's next
 
